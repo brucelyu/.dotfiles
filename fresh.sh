@@ -11,6 +11,7 @@ else
         sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     elif [[ "$(uname)" == "Linux" ]]; then
         # Do something under GNU/Linux platform
+	sudo apt install zsh
         sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
     fi
 fi
