@@ -34,3 +34,6 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
+
+# Symlink the git configuration file
+ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
