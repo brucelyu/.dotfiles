@@ -7,3 +7,15 @@
    ```zsh
    curl https://raw.githubusercontent.com/brucelyu/.dotfiles/main/ssh-key-git.sh | sh -s "<your-email-address>"
    ```
+   
+2. Clone this repo to `~/.dotfiles` with:
+
+    ```zsh
+    git clone --recursive git@github.com:brucelyu/.dotfiles.git ~/.dotfiles
+    ```
+
+3. Run the installation with:
+
+    ```zsh
+    ~/.dotfiles/fresh.sh
+    ```
