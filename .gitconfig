@@ -1,5 +1,12 @@
 [user]
 	name = Xinliang(Bruce) Lyu
 	email = lyu@issp.u-tokyo.ac.jp
+    # This is the gpg key id for commit signature verification
+    # change this to the gpg key id in a particular computer
+    # --------------------------------
+	signingkey = 64F50B7E07D868FF
+    # -------------------------------
 [init]
 	defaultBranch = main
+[core]
+	excludesfile = $DOTFILES/.gitignore_global
