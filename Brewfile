@@ -10,6 +10,7 @@ brew "git"
 brew "vim"
 
 # Apps
+cask "anaconda"
 cask "julia"
 cask "mpv"
 cask "skim"
