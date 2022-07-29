@@ -20,6 +20,11 @@ fi
 if test ! $(which brew); then
   echo "Installing Homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  if [[ $(uname -m) == 'arm64' ]]; then
+    # Add Homebrew to your PATH in ~/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  fi
 else
   echo "Homebrew is already installed..."
 fi
@@ -37,3 +42,6 @@ brew bundle --file $DOTFILES/Brewfile
 
 # Symlink the git configuration file
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
+
+# Create a Codes directory
+mkdir $HOME/Codes
