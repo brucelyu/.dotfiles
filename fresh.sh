@@ -44,4 +44,4 @@ brew bundle --file $DOTFILES/Brewfile
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 
 # Create a Codes directory
-mkdir $HOME/Codes
+mkdir -p $HOME/Codes
