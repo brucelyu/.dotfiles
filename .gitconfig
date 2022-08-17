@@ -9,4 +9,4 @@
 [init]
 	defaultBranch = main
 [core]
-	excludesfile = $DOTFILES/.gitignore_global
+	excludesFile = ~/.dotfiles/.gitignore_global
