@@ -11,6 +11,11 @@ alias ta='tmux attach'
 alias tls='tmux ls'
 alias tat='tmux attach -t'
 alias tns='tmux new-session -s'
+alias dev-tns='tmux new-session \; \
+  send-keys 'vim' C-m \; \
+  split-window -v \; \
+  resize-pane -D 10 \; \
+  split-window -h \; ' 
 
 # For listen to ports for reims cluster
 sshlisten(){ssh -N -f -L $1:"$2":$1 lyu@reims.issp.u-tokyo.ac.jp}
