@@ -14,7 +14,7 @@ alias tns='tmux new-session -s'
 alias dev-tns='tmux new-session \; \
   send-keys 'vim' C-m \; \
   split-window -v \; \
-  resize-pane -D 10 \; \
+  resize-pane -D 20 \; \
   split-window -h \; ' 
 
 # For listen to ports for reims cluster
