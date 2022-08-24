@@ -8,6 +8,7 @@ tap "buo/cask-upgrade"
 brew "gnupg"
 brew "git"
 brew "vim"
+brew "tmux"
 
 # Apps
 cask "anaconda"
