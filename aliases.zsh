@@ -16,6 +16,7 @@ alias dev-tns='tmux new-session \; \
   split-window -v \; \
   resize-pane -D 20 \; \
   split-window -h \; ' 
+alias physcd='cd ~/OneDrive\ -\ The\ University\ of\ Tokyo/Physics/'
 
 # For listen to ports for reims cluster
 sshlisten(){ssh -N -f -L $1:"$2":$1 lyu@reims.issp.u-tokyo.ac.jp}
