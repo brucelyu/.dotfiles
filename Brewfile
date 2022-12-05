@@ -9,6 +9,7 @@ brew "gnupg"
 brew "git"
 brew "vim"
 brew "tmux"
+brew "open-mpi"
 
 # Apps
 cask "anaconda"
