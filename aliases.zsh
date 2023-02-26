@@ -5,6 +5,7 @@ alias jupytercluster="jupyter-notebook --no-browser --port=8889 --ip=0.0.0.0"
 # For mounting to cluster or supercomputer
 alias sshfsreims="sshfs lyu@reims.issp.u-tokyo.ac.jp:/home/lyu/ $HOME/workstation -ovolname=reims"
 alias sshfsohtaka="sshfs k014821@ohtaka.issp.u-tokyo.ac.jp:/home/k0148/k014821/ $HOME/systemb-issp -ovolname=ohtaka"
+alias sshfskugui="sshfs k014821@kugui.issp.u-tokyo.ac.jp:/home/k0148/k014821/ $HOME/systemc-issp -ovolname=kugui"
 
 # tmux aliases
 alias ta='tmux attach'
