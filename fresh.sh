@@ -42,6 +42,8 @@ brew bundle --file $DOTFILES/Brewfile
 
 # Symlink the git configuration file
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
+# Symlink the texmf folder
+ln -s $HOME/.dotfiles/texmf $HOME/Library/texmf
 
 # Create a Codes directory
 mkdir -p $HOME/Codes
