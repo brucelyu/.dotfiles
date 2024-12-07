@@ -18,7 +18,8 @@ alias dev-tns='tmux new-session \; \
   split-window -v \; \
   resize-pane -D 20 \; \
   split-window -h \; ' 
-alias physcd='cd ~/OneDrive\ -\ The\ University\ of\ Tokyo/Physics/'
+alias physcd='cd ~/Google\ Drive/My\ Drive/Physics/'
+alias papercd='cd ~/Google\ Drive/My\ Drive/paper-ongoing/'
 # download video as mp4 using cookies from chrome (For high quality videos)
 yt-mp4-dl(){yt-dlp $1 --cookies-from-browser chrome -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'}
 
